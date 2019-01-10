@@ -13,9 +13,9 @@
         android:background="@drawable/backgroud"
         android:gravity="center"
         android:paddingBottom="45dp"
-        android:text="欧阳鹏"
+        android:text="ouyangpeng"
         android:textColor="#fff"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:degree="45" />
 
     <TextView
