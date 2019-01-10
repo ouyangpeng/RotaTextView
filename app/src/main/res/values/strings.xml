@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">InclinationTextView</string>
+    <string name="app_name">选择的TextView</string>
     <string name="title_activity_main">MainActivity</string>
 </resources>

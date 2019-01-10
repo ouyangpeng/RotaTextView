@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
     <com.oyp.view.RotateTextView
-        android:id="@+id/rota_textview"
+        android:id="@+id/rotate_textview"
         android:layout_width="54dp"
         android:layout_height="54dp"
         android:layout_alignParentRight="true"
@@ -19,18 +19,18 @@
         app:degree="45" />
 
     <TextView
-        android:id="@+id/degrees"
+        android:id="@+id/rotate_degrees"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/rota_textview"
+        android:layout_below="@id/rotate_textview"
         android:gravity="center"
         android:padding="10dp" />
 
     <SeekBar
-        android:id="@+id/sb_rote"
+        android:id="@+id/sb_rotate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/degrees"
+        android:layout_below="@id/rotate_degrees"
         android:layout_marginTop="20dp"
         android:max="100"
         android:progress="30" />
@@ -39,7 +39,7 @@
         android:id="@+id/bt_change_bg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/sb_rote"
+        android:layout_below="@id/sb_rotate"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="替换TextView背景" />

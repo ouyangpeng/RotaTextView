@@ -17,9 +17,9 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mText = (RotateTextView) findViewById(R.id.rota_textview);
-        degrees = (TextView) findViewById(R.id.degrees);
-        SeekBar sbLean = (SeekBar) findViewById(R.id.sb_rote);
+        mText = (RotateTextView) findViewById(R.id.rotate_textview);
+        degrees = (TextView) findViewById(R.id.rotate_degrees);
+        SeekBar sbLean = (SeekBar) findViewById(R.id.sb_rotate);
         sbLean.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
