@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.oyp.view.RotateTextView
+        android:id="@+id/rota_textview"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/backgroud"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="欧阳鹏"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        app:degree="45" />
+
+    <TextView
+        android:id="@+id/degrees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rota_textview"
+        android:gravity="center"
+        android:padding="10dp" />
+
+    <SeekBar
+        android:id="@+id/sb_rote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/degrees"
+        android:layout_marginTop="20dp"
+        android:max="100"
+        android:progress="30" />
+
+    <Button
+        android:id="@+id/bt_change_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sb_rote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="替换TextView背景" />
+
+</RelativeLayout>
