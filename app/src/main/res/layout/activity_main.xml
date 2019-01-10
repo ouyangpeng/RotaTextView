@@ -7,15 +7,15 @@
 
     <com.oyp.view.RotateTextView
         android:id="@+id/rotate_textview"
-        android:layout_width="54dp"
-        android:layout_height="54dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_alignParentRight="true"
         android:background="@drawable/backgroud"
         android:gravity="center"
-        android:paddingBottom="20dp"
+        android:paddingBottom="45dp"
         android:text="欧阳鹏"
         android:textColor="#fff"
-        android:textSize="12sp"
+        android:textSize="20sp"
         app:degree="45" />
 
     <TextView
